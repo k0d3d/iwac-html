@@ -435,7 +435,7 @@
 
 .logo a {
     font-family: 'dimitriregular';
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 41pt;
     top: -10px;
     position: relative;
@@ -446,10 +446,11 @@
 }
 
 .white-h1, .banner-three .container h1 {
-    color: white;
+	color: black;
+	text-align: center;
 }
 .white-h1 span, .banner-three .container h1 span {
-    color: black;
+    color: white;
 }
 
 
@@ -459,8 +460,8 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {
 }
 
 header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav>li>a {
-    color: #fff;
-    text-shadow: 1 1 5 1 black;
+    color: rgb(0, 0, 0);
+    /* text-shadow: 1 1 5 1 black; */
 }
 
 header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav .quote-button a {

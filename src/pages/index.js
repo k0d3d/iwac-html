@@ -17,21 +17,21 @@ window.jQuery = $
 
 let jQuery = jQuery || $
 
-require('../packages/bootstrap-mega-menu/js/menu.js')
 
-// require('../packages/WOW-master/dist/wow.min.js')
-
-require('../packages/jquery.appear.js')
-
-require('../packages/fancybox/dist/jquery.fancybox.min.js')
-
-require('../packages/jquery.ripples-master/dist/jquery.ripples-min.js')
-
-require('../js/theme.js')
 
 class Home extends Component {
     componentDidMount () {
+        require('../packages/bootstrap-mega-menu/js/menu.js')
 
+        // require('../packages/WOW-master/dist/wow.min.js')
+
+        require('../packages/jquery.appear.js')
+
+        require('../packages/fancybox/dist/jquery.fancybox.min.js')
+
+        require('../packages/jquery.ripples-master/dist/jquery.ripples-min.js')
+
+        require('../js/theme.js')
         jQuery(document).on('ready', function () {
             (function ($) {
                 removePlaceholder();

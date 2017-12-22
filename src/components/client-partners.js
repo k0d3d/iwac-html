@@ -107,44 +107,7 @@ export default class ClientPartners extends Component {
 	}
     render() {
         return (
-		<div className='partent-logo-section'>
-			<div className='container'>
-				<div className='row'>
-					<div className='col-md-6 col-xs-12 wow fadeInLeft'>
-						<div className='theme-title'>
-							<h6>Previous Clients</h6>
-							<h2>
-								All Outstanding results.
-							</h2>
-							<p>
-								Over the last 10 years, we have helped and guided small and medium scale organisations to achieve outstanding results with their websites and tech needs.
-							</p>
-						</div>
-					</div>
-					<div className='col-md-6 col-xs-12 wow fadeInLeft'>
-						<div className='partner-logo'>
-							<OwlCarousel
-								ref={inst => this.slider = inst}
-								className="owl-theme"
-								{...this.state.options}
-							>
-								{this.state.items.slice(0, 14)}
-							</OwlCarousel>
-
-						</div>
-						<div className='partner-logo'>
-								<OwlCarousel
-									ref={inst => this.slider = inst}
-									className="owl-theme"
-									{...this.state.options}
-								>
-									{this.state.items.slice(13)}
-								</OwlCarousel>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+			<div />
         )
     }
 }

@@ -1333,7 +1333,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../images/home/10.jpg) no-repeat center;
+  /* background: url(../images/home/10.jpg) no-repeat center; */
 }
 
 .more-about-us {
@@ -1684,7 +1684,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {
 }
 
 .testimonial-section.bg-image {
-  background: url(../images/home/11.jpg) no-repeat center;
+  /* background: url(../images/home/11.jpg) no-repeat center; */
   background-size: cover;
   padding: 130px 0 150px 0;
 }
@@ -2189,7 +2189,7 @@ footer .bottom-footer {
 /*----------------------------- Short Banner ----------------------*/
 
 .short-banner {
-  background: url(../images/home/13.jpg) no-repeat center;
+  /* background: url(../images/home/13.jpg) no-repeat center; */
   background-size: cover;
   background-attachment: fixed;
   margin: 150px 0 0 0;
