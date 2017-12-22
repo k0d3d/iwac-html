@@ -10,19 +10,16 @@ import ClientPartners from '../components/client-partners'
 import Footer from '../components/footer'
 
 import $ from 'jquery';
-
+if (typeof window === 'undefined') {
+    global.window = {}
+}
 window.jQuery = $
 
-// let jQuery = jQuery || $
-
-
-require('../packages/bootstrap-select/dist/js/bootstrap-select.js')
+let jQuery = jQuery || $
 
 require('../packages/bootstrap-mega-menu/js/menu.js')
 
 // require('../packages/WOW-master/dist/wow.min.js')
-
-require('../packages/owl-carousel/owl.carousel.min.js')
 
 require('../packages/jquery.appear.js')
 
@@ -32,17 +29,12 @@ require('../packages/jquery.ripples-master/dist/jquery.ripples-min.js')
 
 require('../js/theme.js')
 
-require('../js/imagesloaded.pkgd.min.js')
-require('../js/anime.min.js')
-
 class Home extends Component {
     componentDidMount () {
 
         jQuery(document).on('ready', function () {
             (function ($) {
                 removePlaceholder();
-                BannerSlider();
-                // wowAnimation();
                 mixitupGallery();
                 testimonialSlider();
                 portfolioSlider();
@@ -70,6 +62,7 @@ class Home extends Component {
                 <OurServices />
                 <YourBenefits />
                 <PricingTable />
+                <ClientPartners />
                 <Footer />
             </div>
         )

@@ -1,13 +1,21 @@
 import React from 'react'
+import $ from 'jquery'
+
+
+import imagesLoaded from '../js/imagesloaded.pkgd.min.js'
+import anime from 'animejs'
 
 import Slideshow from '../js/demo1'
 
 export default class SvgBanner extends React.Component {
     componentDidMount () {
-        // new Slideshow(document.querySelector('.slideshow'));
-        // imagesLoaded('.slide__img', {
-        //     background: true
-        // }, () => document.body.classList.remove('loading'));
+        $(document).ready(()=> {
+
+            new Slideshow(document.querySelector('.slideshow'));
+            imagesLoaded('.slide__img', {
+                background: true
+            }, () => document.body.classList.remove('loading'));
+        })
     }
     render() {
         return (
@@ -42,30 +50,6 @@ export default class SvgBanner extends React.Component {
                             <use xlinkHref='#icon-github'></use>
                         </svg>
                     </a>
-                    <nav className='demos'>
-                        <svg className='icon icon--keyboard'>
-                            <use xlinkHref='#icon-keyboard'></use>
-                        </svg>
-                        <a className='demo demo--current' href='index.html'>
-                            <span>Demo 1</span>
-                        </a>
-                        <a className='demo' href='index2.html'>
-                            <span>Demo 2</span>
-                        </a>
-                        <a className='demo' href='index3.html'>
-                            <span>Demo 3</span>
-                        </a>
-                        <a className='demo' href='index4.html'>
-                            <span>Demo 4</span>
-                        </a>
-                        <a className='demo' href='index5.html'>
-                            <span>Demo 5</span>
-                        </a>
-                        <a className='demo' href='index6.html'>
-                            <span>Demo 6</span>
-                        </a>
-                    </nav>
-
                 </div>
                 <div className='slideshow'>
                     <div className='slides'>
