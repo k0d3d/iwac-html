@@ -9,26 +9,56 @@ import PricingTable from '../components/pricing'
 import ClientPartners from '../components/client-partners'
 import Footer from '../components/footer'
 
+import $ from "jquery";
+import 'react-bootstrap'
 
-// import '../packages/bootstrap/bootstrap.css'
+let jQuery = jQuery || $
 
-// import '../packages/bootstrap-select/dist/css/bootstrap-select.css'
-// import '../packages/Camera-master/css/camera.css'
-// import '../packages/bootstrap-mega-menu/css/menu.css'
-// import '../fonts/font-awesome/css/font-awesome.min.css'
-// import '../packages/owl-carousel/owl.carousel.css'
-// import '../packages/owl-carousel/owl.theme.css'
-// import '../packages/WOW-master/css/libs/animate.css'
-// import '../packages/hover.css'
-// import '../fonts/icon/font/flaticon.css'
-// import '../packages/fancybox/dist/jquery.fancybox.min.css'
-// import '../packages/jquery-ui/jquery-ui.min.css'
+import '../packages/bootstrap-select/dist/js/bootstrap-select.js'
 
-// import '../css/style.css'
-// import '../css/responsive.css'
-// import '../css/custom.css'
+
+// import '../packages/Camera-master/scripts/jquery.mobile.customized.min.js'
+import '../packages/Camera-master/scripts/jquery.easing.1.3.js'
+// import '../packages/Camera-master/scripts/camera.min.js'
+
+import '../packages/bootstrap-mega-menu/js/menu.js'
+
+import '../packages/WOW-master/dist/wow.min.js'
+
+import '../packages/owl-carousel/owl.carousel.min.js'
+
+import '../packages/jquery.appear.js'
+import '../packages/jquery.countTo.js'
+
+import '../packages/fancybox/dist/jquery.fancybox.min.js'
+import '../packages/jquery.ripples-master/dist/jquery.ripples-min.js'
+
+import '../js/theme.js'
+
+
 
 class Home extends Component {
+    componentDidMount () {
+        jQuery(document).on('ready', function () {
+            (function ($) {
+                removePlaceholder();
+                // BannerSlider();
+                wowAnimation();
+                mixitupGallery();
+                testimonialSlider();
+                portfolioSlider();
+                partnersLogo();
+                CounterNumberChanger();
+                scrollToTop();
+                contactFormValidation();
+                closeSuccessAlert();
+                themeAccrodion();
+                priceRanger();
+                productValue();
+                productSlider();
+            })(jQuery);
+        });        
+    }
     render () {
         return (
             <div> 

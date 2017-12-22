@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+import stopWatchImg from '../images/stopwatch.png'
+import smartPhoneImg from '../images/smartphone.png'
+import supportImg from '../images/support.png'
+
 export default class WhatWeDoCont extends Component {
     render () {
         return (
@@ -9,7 +13,7 @@ export default class WhatWeDoCont extends Component {
                         <div className='col-md-4 col-sm-6 col-xs-12'>
                             <div className='single-block'>
                                 <div className='icon'>
-                                    <img src='images/smartphone.png' alt='smartphone' />
+                                    <img src={smartPhoneImg} alt='smartphone' />
 							</div>
                                     <h6>All the slick features and styling</h6>
                                     <p>that make the most popular social applications work. </p>
@@ -18,7 +22,7 @@ export default class WhatWeDoCont extends Component {
 					<div className='col-md-4 col-sm-6 col-xs-12'>
                                 <div className='single-block'>
                                     <div className='icon'>
-                                        <img src='images/stopwatch.png' alt='stopwatch' />
+                                        <img src={stopWatchImg} alt='stopwatch' />
 							</div>
                                         <h6>Pay attention to what matters</h6>
                                         <p>like your music, your videos, your fans and your business.</p>
@@ -27,7 +31,7 @@ export default class WhatWeDoCont extends Component {
 					<div className='col-md-4 hidden-sm col-xs-12'>
                                     <div className='single-block'>
                                         <div className='icon'>
-                                            <img src='images/support.png' alt='support' />
+                                            <img src={supportImg} alt='support' />
 							</div>
                                             <h6>World-class Support &amp; Monitoring</h6>
                                             <p>Get real-time response when you need it. </p>

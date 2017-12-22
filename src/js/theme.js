@@ -382,25 +382,25 @@ function productSlider () {
 
 
 // DOM ready function
-jQuery(document).on('ready', function() {
-	(function ($) {
-	   removePlaceholder ();
-     BannerSlider ();
-     wowAnimation ();
-     mixitupGallery ();
-     testimonialSlider ();
-     portfolioSlider ();
-     partnersLogo ();
-     CounterNumberChanger ();
-     scrollToTop ();
-     contactFormValidation ();
-     closeSuccessAlert ();
-     themeAccrodion ();
-     priceRanger ();
-     productValue ();
-     productSlider ();
-  })(jQuery);
-});
+// jQuery(document).on('ready', function() {
+// 	(function ($) {
+// 	   removePlaceholder ();
+//      BannerSlider ();
+//      wowAnimation ();
+//      mixitupGallery ();
+//      testimonialSlider ();
+//      portfolioSlider ();
+//      partnersLogo ();
+//      CounterNumberChanger ();
+//      scrollToTop ();
+//      contactFormValidation ();
+//      closeSuccessAlert ();
+//      themeAccrodion ();
+//      priceRanger ();
+//      productValue ();
+//      productSlider ();
+//   })(jQuery);
+// });
 
 
 // Window scroll function
@@ -419,18 +419,18 @@ jQuery(window).on('load', function () {
  });
 
 
-(function($) {
-  "use strict";
-  $(document).ready(function(){
-    window.addEventListener('DOMContentLoaded', function() {
-        new QueryLoader2(document.querySelector("body"), {
-            barColor: "#000",
-            backgroundColor: "#fff",
-            percentage: true,
-            barHeight: 1,
-            minimumTime: 400,
-            fadeOutTime: 1000,
-        })
-    })
-  })
-})(jQuery)
+// (function($) {
+//   "use strict";
+//   $(document).ready(function(){
+//     window.addEventListener('DOMContentLoaded', function() {
+//         new QueryLoader2(document.querySelector("body"), {
+//             barColor: "#000",
+//             backgroundColor: "#fff",
+//             percentage: true,
+//             barHeight: 1,
+//             minimumTime: 400,
+//             fadeOutTime: 1000,
+//         })
+//     })
+//   })
+// })(jQuery)

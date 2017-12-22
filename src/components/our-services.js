@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 
+import mobileImg from '../images/mobile.gif'
+
 export default class OurServices extends Component {
     render () {
         return (
             <div className='home-service-section'>
                 <div className='container'>
-
-                    <div className='col-md-9 col-md-offset-3 main-container'>
+                    <div className='col-md-3'>
+                        <div className='iphone-animated hidden-xs'>
+                            <img src={mobileImg} alt='Image' className='wow fadeIn' />
+                        </div>                    
+                    </div>
+                    <div className='col-md-9 main-container'>
                         <div className='theme-title'>
                             <h6 id='benefits'>What you get.</h6>
                             <h2>Tons of features your fans and followers will love.</h2>
@@ -57,12 +63,9 @@ export default class OurServices extends Component {
                     </div>
                     <div className='col-xs-12 visible-xs'>
                         <div className='iphone-animated' style={{position: `relative`,left: `0px`,top: `0px`}}>
-						<img src='images/mobile.gif' alt='Image' className='wow fadeIn' style={{visibility: `visible`, animationName: `fadeIn`, left: `0px`}} />
+						<img src={mobileImg} alt='Image' className='wow fadeIn' style={{visibility: `visible`, animationName: `fadeIn`, left: `0px`}} />
 					</div>
                     </div>
-				<div className='iphone-animated hidden-xs'>
-                        <img src='images/mobile.gif' alt='Image' className='wow fadeIn' />
-				</div>
                     </div>
 		</div>            
         )
