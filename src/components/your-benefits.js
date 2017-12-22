@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import bgWhiteMod from '../images/bg-white-section-mod.jpg'
+
+
 export default class YourBenefits extends Component {
     render() {
         return (
@@ -15,7 +18,7 @@ export default class YourBenefits extends Component {
 				<div className='row'>
                         <div className='col-md-12 col-xs-12'>
                             <p>
-                                <img src='images/bg-white-section-mod.jpg' alt='' />
+                                <img src={bgWhiteMod} alt='' />
 						</p>
                                 <div className='single-blog color-one'></div> 
 					</div> 

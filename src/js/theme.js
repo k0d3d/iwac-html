@@ -381,42 +381,15 @@ function productSlider () {
 }
 
 
-// DOM ready function
-// jQuery(document).on('ready', function() {
-// 	(function ($) {
-// 	   removePlaceholder ();
-//      BannerSlider ();
-//      wowAnimation ();
-//      mixitupGallery ();
-//      testimonialSlider ();
-//      portfolioSlider ();
-//      partnersLogo ();
-//      CounterNumberChanger ();
-//      scrollToTop ();
-//      contactFormValidation ();
-//      closeSuccessAlert ();
-//      themeAccrodion ();
-//      priceRanger ();
-//      productValue ();
-//      productSlider ();
-//   })(jQuery);
-// });
-
 
 // Window scroll function
 jQuery(window).on('scroll', function () {
   (function ($) {
-    stickyHeader ();
+    // stickyHeader ();
   })(jQuery);
 });
 
-// Window load function
-jQuery(window).on('load', function () {
-   (function ($) {
-    innerBanner ();
-    masonaryBlog ()
-  })(jQuery);
- });
+
 
 
 // (function($) {

@@ -24,13 +24,60 @@ import '../css/custom.css'
 
 const TemplateWrapper = ({ children }) => (
   <div className="main-page-wrapper">
-    <Helmet
-      title="IXit"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
+    <Helmet     
+    >
+        <meta charSet="UTF-8" />
+        <meta
+httpEquiv="X-UA-Compatible"
+content="IE=edge" />
+        <meta
+name="description"
+content="iXit helps you create beautiful mobile applications and websites using the same features and performance design available to the most popular social apps like Facebook and Instagram." />
+        <meta
+name="keywords"
+content="iXit, mobile backup, ixit fast upload, upload movies, upload photos, upload documents, file backup, large uploads, resumable uploads, music, mobile site, web design, mobile app, developer " />
+        <meta name="author" content="iXit" />
+        <meta
+name="viewport"
+content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta
+property="og:title"
+content="Blazing fast file uploads and mobile bevice backup service." />
+        <meta property="og:type" content="website" />
+        <meta
+property="og:url"
+content="http://ixit.com.ng" />
+        <meta
+property="og:image"
+content="http://ixit.com.ng/images/fav-icon/favicon.png"
+alt
+title="this is the title" />
+        <meta
+property="og:description"
+content="iXit helps you back up your mobile device content like songs, document and photos. Users can easily share files with anyone with an email address or social media account. Uploads are very fast, resumable and fault-tolerant uploads. Keep your files safe by using iXit." />
+        <meta
+name="twitter:card"
+content="summary_large_image" />
+        <meta name="twitter:site" content="@ixibot" />
+        <meta name="twitter:creator" content="@ixitbot" />
+        <meta
+name="twitter:title"
+content="iXit | Blazing fast file uploads and mobile bevice backup service." />
+        <meta
+name="twitter:description"
+content="iXit helps you back up your mobile device content like songs, document and photos. Keep your files safe by using iXit." />
+        <meta
+name="twitter:image"
+content="http://ixit.com.ng/images/fav-icon/favicon.png" />
+        <meta
+name="google-site-verification"
+content="eD8uIMx9JHCiUwUFhOsHJnzI3wvQW41kyoSBzJTgA9U" />
+        <title>
+iXit - mobile sites for recording artists and record labels.
+</title>
+
+	<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/favicon.png" />    
+    </Helmet>
     {children()}
   </div>
 )

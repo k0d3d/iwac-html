@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+
+// import bgWhiteMod from '../images/bg-white-section-mod.jpg'
+
 export default class Banner extends Component {
     render () {
         return (

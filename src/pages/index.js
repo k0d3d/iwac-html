@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
+import SvgBanner from '../components/svg-banner'
 import HeaderHtml from '../components/header'
-import Banner from '../components/index-banner'
 import WhatWeDo from '../components/what-we-do'
 import WhatWeDoCont from '../components/what-we-do-cont'
 import OurServices from '../components/our-services'
@@ -9,41 +9,40 @@ import PricingTable from '../components/pricing'
 import ClientPartners from '../components/client-partners'
 import Footer from '../components/footer'
 
-import $ from "jquery";
-import 'react-bootstrap'
+import $ from 'jquery';
 
-let jQuery = jQuery || $
+window.jQuery = $
 
-import '../packages/bootstrap-select/dist/js/bootstrap-select.js'
-
-
-// import '../packages/Camera-master/scripts/jquery.mobile.customized.min.js'
-import '../packages/Camera-master/scripts/jquery.easing.1.3.js'
-// import '../packages/Camera-master/scripts/camera.min.js'
-
-import '../packages/bootstrap-mega-menu/js/menu.js'
-
-import '../packages/WOW-master/dist/wow.min.js'
-
-import '../packages/owl-carousel/owl.carousel.min.js'
-
-import '../packages/jquery.appear.js'
-import '../packages/jquery.countTo.js'
-
-import '../packages/fancybox/dist/jquery.fancybox.min.js'
-import '../packages/jquery.ripples-master/dist/jquery.ripples-min.js'
-
-import '../js/theme.js'
+// let jQuery = jQuery || $
 
 
+require('../packages/bootstrap-select/dist/js/bootstrap-select.js')
+
+require('../packages/bootstrap-mega-menu/js/menu.js')
+
+// require('../packages/WOW-master/dist/wow.min.js')
+
+require('../packages/owl-carousel/owl.carousel.min.js')
+
+require('../packages/jquery.appear.js')
+
+require('../packages/fancybox/dist/jquery.fancybox.min.js')
+
+require('../packages/jquery.ripples-master/dist/jquery.ripples-min.js')
+
+require('../js/theme.js')
+
+require('../js/imagesloaded.pkgd.min.js')
+require('../js/anime.min.js')
 
 class Home extends Component {
     componentDidMount () {
+
         jQuery(document).on('ready', function () {
             (function ($) {
                 removePlaceholder();
-                // BannerSlider();
-                wowAnimation();
+                BannerSlider();
+                // wowAnimation();
                 mixitupGallery();
                 testimonialSlider();
                 portfolioSlider();
@@ -56,6 +55,8 @@ class Home extends Component {
                 priceRanger();
                 productValue();
                 productSlider();
+                innerBanner();
+                masonaryBlog()
             })(jQuery);
         });        
     }
@@ -63,7 +64,7 @@ class Home extends Component {
         return (
             <div> 
                 <HeaderHtml></HeaderHtml>
-                <Banner></Banner>
+                <SvgBanner></SvgBanner>
                 <WhatWeDo />
                 <WhatWeDoCont />
                 <OurServices />
