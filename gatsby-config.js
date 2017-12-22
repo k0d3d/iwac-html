@@ -3,4 +3,5 @@ module.exports = {
     title: `iXit`,
   },
   plugins: [`gatsby-plugin-react-helmet`],
+  pathPrefix: `/`,
 }

@@ -1238,6 +1238,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {
 .what-we-do {
   text-align: center;
   padding-bottom: 0px;
+  margin-top: 50px;
 }
 
 .what-we-do h3 {
@@ -1572,6 +1573,8 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {
 .home-service-section {
   position: relative;
   padding-bottom: 100px;
+    background-color: #eeeeee;
+    padding-top: 100px;
 }
 
 .home-service-section img {

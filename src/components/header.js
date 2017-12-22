@@ -12,7 +12,7 @@ class HeaderHtml extends Component {
 				<div className='top-header'>
 					<div className='container'>
 						<div className='float-right'>
-							<p>Call Us <a href='#' className='tran3s'>078 282 294</a></p>
+							<p>Call Us <a href='#' className='tran3s'>09022263889</a></p>
 							<ul>
 								<li><a href='' className='tran3s'><i className='fa fa-facebook' aria-hidden='true'></i></a></li>
 								<li><a href='' className='tran3s'><i className='fa fa-twitter' aria-hidden='true'></i></a></li>
