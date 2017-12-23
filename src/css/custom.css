@@ -241,6 +241,10 @@
 	.iphone-animated {
 		position: relative;
 	}
+	.slide__title {
+		font-size: 9.5vw !important;
+		margin-top: 60px !important;
+	}
 }
 
 @media (max-width: 767px) {
@@ -524,6 +528,6 @@ header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav .quote-button
 	background-image: url(../images/wifi-signal.png)
 }
 
-.icon {
-	display: block;
+.icon.tick {
+	display: inline-block !important;
 }

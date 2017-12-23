@@ -17,6 +17,8 @@ import '../fonts/icon/font/flaticon.css'
 import '../packages/fancybox/dist/jquery.fancybox.min.css'
 import '../packages/jquery-ui/jquery-ui.min.css'
 
+import '../images/fav-icon/favicon.png'
+
 
 import '../css/style.css'
 import '../css/responsive.css'
@@ -49,7 +51,7 @@ property="og:url"
 content="http://ixit.com.ng" />
         <meta
 property="og:image"
-content="http://ixit.com.ng/images/fav-icon/favicon.png"
+content="/static/images/fav-icon/favicon.png"
 alt
 title="this is the title" />
         <meta
@@ -68,7 +70,7 @@ name="twitter:description"
 content="iXit | Do you need a mobile app or website for your entertainment business? We can build a mobile app or website with super-charged features for you." />
         <meta
 name="twitter:image"
-content="http://ixit.com.ng/images/fav-icon/favicon.png" />
+content="/static/images/fav-icon/favicon.png" />
         <meta
 name="google-site-verification"
 content="eD8uIMx9JHCiUwUFhOsHJnzI3wvQW41kyoSBzJTgA9U" />
@@ -76,7 +78,7 @@ content="eD8uIMx9JHCiUwUFhOsHJnzI3wvQW41kyoSBzJTgA9U" />
 iXit - mobile sites for recording artists and record labels.
 </title>
 
-	<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/favicon.png" />    
+	<link rel="icon" type="image/png" sizes="56x56" href="/static/images/fav-icon/favicon.png" />    
     </Helmet>
     {children()}
   </div>

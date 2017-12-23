@@ -8,6 +8,7 @@
     --color-link-hover: #f7ce28ba;
     --color-stitle: #000;
     --fontsize-stitle: 3.5vw;
+    --fontsize-mtitle: 9.5vw;
     --color-sdesc: #000;
     --color-slink: #000;
     --color-slink-hover: #000;
@@ -264,69 +265,20 @@ main {
 	background: var(--color-slink-hover-bg);
 }
 
-@media screen and (min-width: 55em) {
-	.demos {
-		display: flex;
-		justify-self: end;
-	}
-	.demo {
-		display: block;
-		width: 17px;
-		height: 17px;
-		margin: 0 4px;
-		border-radius: 50%;
-		background: var(--color-link);
-	}
-	a.demo--current {
-		background: var(--color-link-hover);
-	}
-	.demo span {
-		line-height: 1;
-		position: absolute;
-		right: 100%;
-		display: none;
-		margin: 0 1em 0 0;
-	}
-	.demo--current span {
-		display: block;
-	}
-}
 
-@media screen and (max-width: 55em) {
-	body {
-		padding: 0 0 4em 0;
-	}
-	.content {
-		flex-direction: column;
-		height: auto;
-		min-height: 0;
-		padding-bottom: 10em;
-	}
-	.content--fixed {
-		position: relative;
-		z-index: 1000;
-		display: block;
-		padding: 0.85em;
-	}
-	.codrops-header {
-		flex-direction: column;
-		align-items: center;
-	}
-	.codrops-header__title {
-		font-weight: bold;
-		padding-bottom: 0.25em;
-		text-align: center;
-	}
-	.github {
-		display: none;
-	}
-	.codrops-links {
-		margin: 0;
-	}
+/* @media screen and (max-width: 55em) {
 	.slide__desc {
 		font-size: 1em;
 	}
 	.slide__link {
 		font-size: 0.85em;
+	}
+} */
+
+@media (max-width: 420px) {
+
+	.white-h1 {
+		font-size: var(--fontsize-mtitle);
+		margin-top: 60px !important;
 	}
 }
