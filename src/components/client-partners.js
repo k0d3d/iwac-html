@@ -107,7 +107,24 @@ export default class ClientPartners extends Component {
 	}
     render() {
         return (
-			<div />
-        )
+			<div className='partent-logo-section'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-6 col-xs-12 wow fadeInLeft'>
+							<div className='theme-title'>
+								<h6>Previous Clients</h6>
+								<h2>
+									All Outstanding results.
+							</h2>
+								<p>
+									Over the last 10 years, we have helped and guided small and medium scale organisations to achieve outstanding results with their websites and tech needs.
+							</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>        
+		)
     }
 }

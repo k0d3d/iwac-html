@@ -42,7 +42,7 @@ name="viewport"
 content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta
 property="og:title"
-content="Blazing fast file uploads and mobile bevice backup service." />
+content="We can build a mobile app or website with super-charged features for you." />
         <meta property="og:type" content="website" />
         <meta
 property="og:url"
@@ -54,7 +54,7 @@ alt
 title="this is the title" />
         <meta
 property="og:description"
-content="iXit helps you back up your mobile device content like songs, document and photos. Users can easily share files with anyone with an email address or social media account. Uploads are very fast, resumable and fault-tolerant uploads. Keep your files safe by using iXit." />
+content="iXit | Do you need a mobile app or website for your entertainment business? We can build a mobile app or website with super-charged features for you." />
         <meta
 name="twitter:card"
 content="summary_large_image" />
@@ -62,10 +62,10 @@ content="summary_large_image" />
         <meta name="twitter:creator" content="@ixitbot" />
         <meta
 name="twitter:title"
-content="iXit | Blazing fast file uploads and mobile bevice backup service." />
+content="iXit | mobile sites for recording artists and record labels." />
         <meta
 name="twitter:description"
-content="iXit helps you back up your mobile device content like songs, document and photos. Keep your files safe by using iXit." />
+content="iXit | Do you need a mobile app or website for your entertainment business? We can build a mobile app or website with super-charged features for you." />
         <meta
 name="twitter:image"
 content="http://ixit.com.ng/images/fav-icon/favicon.png" />

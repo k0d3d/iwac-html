@@ -30,7 +30,7 @@ export default class SvgBanner extends React.Component {
                         <div className='slide slide--current'>
                             <div className='slide__img' style={{ backgroundImage: `url(${__PATH_PREFIX__ }/static/images/home/slide-3.jpg)`}}></div>
                             <h2 className='slide__title fadeInUp animated white-h1'>
-                                Are you a recording <br />or performing <span>artist</span>, <br />record <span>label</span> or comedy <span>act</span>?
+                                Are you a recording or performing <br /><span>artist</span>, record <span>label</span><br /> or comedy <span>act</span>?
                             </h2>
                             <a className='slide__link' href='#'>Amazing benefits</a>
 
