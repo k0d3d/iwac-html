@@ -32,7 +32,7 @@ export default class SvgBanner extends React.Component {
                             <h2 className='slide__title fadeInUp animated white-h1'>
                                 Are you a recording or performing <br /><span>artist</span>, record <span>label</span><br /> or comedy <span>act</span>?
                             </h2>
-                            <a className='slide__link' href='#'>Amazing benefits</a>
+                            <a className='slide__link' href='#'>Remarkable benefits</a>
 
                         </div>
                         <div className='slide'>
@@ -40,7 +40,7 @@ export default class SvgBanner extends React.Component {
                             <h2 className='slide__title fadeInUp animated white-h1'>
                                 Do you need a <span>mobile app</span> <br />or <span>website</span> for your <br />entertainment business?
                             </h2>
-                            <a className='slide__link' href='#'>Amazing benefits</a>
+                            <a className='slide__link' href='#'>Remarkable benefits</a>
 
                         </div>
                         <div className='slide'>
@@ -48,7 +48,7 @@ export default class SvgBanner extends React.Component {
                             <h2 className='slide__title fadeInUp animated white-h1'>
                                 Do you need <span>professional </span>tech<br /> <span>support</span> and <span>consultation</span> <br /> for your business?
                             </h2>
-                            <a className='slide__link' href='#'>Amazing benefits</a>
+                            <a className='slide__link' href='#'>Remarkable benefits</a>
                         </div>
                         <div className='slide'>
                             <div className='slide__img' style={{backgroundImage: `url(./static/images/home/slide-5.jpg)`}}></div>
@@ -56,7 +56,7 @@ export default class SvgBanner extends React.Component {
                                 We can build a <span>mobile app</span> <br />or <span>website</span> with <span>super-charged</span>  <br />features for you.
                             
                             </h2>
-                            <a className='slide__link' href='#'>Amazing benefits</a>
+                            <a className='slide__link' href='#'>Remarkable benefits</a>
                             
                         </div>
                     </div>

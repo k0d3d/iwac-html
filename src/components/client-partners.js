@@ -121,7 +121,13 @@ export default class ClientPartners extends Component {
 							</p>
 							</div>
 						</div>
-
+						<div className='col-md-6 col-xs-12 wow fadeInLeft'>
+							<OwlCarousel
+								{...this.state.options}
+							>
+								{this.state.items.slice(0, 14)}
+							</OwlCarousel>						
+						</div>
 					</div>
 				</div>
 			</div>        

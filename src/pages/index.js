@@ -22,35 +22,8 @@ let jQuery = jQuery || $
 class Home extends Component {
     componentDidMount () {
         require('../packages/bootstrap-mega-menu/js/menu.js')
-
-        // require('../packages/WOW-master/dist/wow.min.js')
-
-        require('../packages/jquery.appear.js')
-
-        require('../packages/fancybox/dist/jquery.fancybox.min.js')
-
-        require('../packages/jquery.ripples-master/dist/jquery.ripples-min.js')
-
         require('../js/theme.js')
-        jQuery(document).on('ready', function () {
-            (function ($) {
-                removePlaceholder();
-                mixitupGallery();
-                testimonialSlider();
-                portfolioSlider();
-                partnersLogo();
-                CounterNumberChanger();
-                scrollToTop();
-                contactFormValidation();
-                closeSuccessAlert();
-                themeAccrodion();
-                priceRanger();
-                productValue();
-                productSlider();
-                innerBanner();
-                masonaryBlog()
-            })(jQuery);
-        });        
+        
     }
     render () {
         return (

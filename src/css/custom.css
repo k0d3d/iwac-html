@@ -531,3 +531,10 @@ header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav .quote-button
 .icon.tick {
 	display: inline-block !important;
 }
+.isClosed {
+	display: none;
+}
+
+.mt {
+	margin-top: 50px;
+}

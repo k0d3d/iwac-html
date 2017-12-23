@@ -12,5 +12,6 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
             test: /react-owl-carousel/,
             loader: "null-loader",
         });
+               
     }
 };

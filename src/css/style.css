@@ -1799,7 +1799,7 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {
   margin: 0;
 }
 
-.pricing-plan-one .nav-tabs>li>a {
+.pricing-plan-one .nav-tabs>li>button {
   width: 152px;
   line-height: 55px;
   font-size: 18px;
@@ -1812,18 +1812,19 @@ header.theme-menu-wrapper.menu-style-three.fixed #mega-menu-wrapper .nav>li>a {
   text-align: center;
 }
 
-.pricing-plan-one .nav-tabs>li:first-child>a {
+.pricing-plan-one .nav-tabs>li:first-child>button {
   border-radius: 28px 0 0 28px;
 }
 
-.pricing-plan-one .nav-tabs>li:last-child>a {
+.pricing-plan-one .nav-tabs>li:last-child>button {
   border-radius: 0 28px 28px 0;
 }
 
-.pricing-plan-one .nav-tabs>li.active>a,
-.pricing-plan-one .nav-tabs>li.active>a:hover,
-.pricing-plan-one .nav-tabs>li.active>a:focus {
-  color: #fff;
+.pricing-plan-one .nav-tabs>li.active>button,
+.pricing-plan-one .nav-tabs>li.active>button:hover,
+.pricing-plan-one .nav-tabs>li.active>button:focus {
+  color: #000000;
+  background: #f4cb25;
 }
 
 .pricing-plan-one .tab-content .left-side {
