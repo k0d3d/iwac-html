@@ -16,9 +16,9 @@ class NavMenu extends Component {
 				</div>
 				<div className='collapse navbar-collapse' id='navbar-collapse-1'>
 					<ul className='nav'>
-						<li className='dropdown-holder menu-list active'><a href='/' className='tran3s'>Hosting</a>
-						</li>
 						<li className='dropdown-holder menu-list'><a href='#benefits' className='tran3s'>Benefits</a>
+						</li>
+						<li className='dropdown-holder menu-list active'><a href='/' className='tran3s'>Hosting</a>
 						</li>
 						<li className='dropdown-holder menu-list'><a href='#pricing' className='tran3s'>Pricing</a></li>
 						<li className='dropdown-holder menu-list'><a href='#' className='tran3s'>Were Hiring</a>

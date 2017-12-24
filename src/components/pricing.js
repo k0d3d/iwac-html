@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import classnames from 'classnames'
 
+
+require('../js/fortumopay.js')
 export default class PricingTable extends Component {
 
     constructor (props) {
@@ -42,14 +44,16 @@ export default class PricingTable extends Component {
     }
 
     componentDidMount () {
-        var aScript = document.createElement('script');
-        aScript.type = 'text/javascript';
-        aScript.src = "https://assets.fortumo.com/fmp/fortumopay.js";
+        // var aScript = document.createElement('script');
+        // aScript.type = 'text/javascript';
+        // aScript.src = "https://assets.fortumo.com/fmp/fortumopay.js";
+// <script src='https://assets.fortumo.com/fmp/fortumopay.js' type='text/javascript'></script>
 
-        document.head.appendChild(aScript);
-        aScript.onload = function () {
-            console.log('fortumo loaded')
-        };        
+
+        // document.head.appendChild(aScript);
+        // aScript.onload = function () {
+        //     console.log('fortumo loaded')
+        // };        
     }
 
     render() {
@@ -239,9 +243,14 @@ export default class PricingTable extends Component {
                                                                     
 
                                                             
-                                                            <a id="fmp-button" href="#" rel="4250516fbef88e5140f84c026ad2b50d"><img src="https://assets.fortumo.com/fmp/fortumopay_150x50_red.png" width="150" height="50" alt="Mobile Payments by Fortumo" border="0" /></a>                                                                        
+                                                            <a id="fmp-button" href="#" rel="4250516fbef88e5140f84c026ad2b50d">
+                                                                <img src="https://assets.fortumo.com/fmp/fortumopay_150x50_red.png" width="150" height="50" alt="Mobile Payments by Fortumo" />
+                                                            </a>                                                                        
                                                             <div className='generic_price_btn clearfix'>
-                                                                <a className='' href='https://paystack.com/pay/ixit-one-time-mobile-development'>Pay Now</a>
+                                                                <a className='' href='https://paystack.com/pay/ixit-one-time-mobile-development'>
+                                                                    <i className="fa fa-credit-card fa-1x" aria-hidden="true"></i>
+                                                                    &nbsp;Pay Now                                                                
+                                                                </a>
                                                             </div>
                                                                     
 
@@ -291,7 +300,7 @@ export default class PricingTable extends Component {
                                                                     {packageBenefitsHTML}
                                                                 </ul>
                                                             </div>
-                                                            <a id="fmp-button" href="#" rel="3b47bfb783d2762e474fa2dd35d256ee"><img src="https://assets.fortumo.com/fmp/fortumopay_150x50_red.png" width="150" height="50" alt="Mobile Payments by Fortumo" border="0" /></a>        
+                                                            <a id="fmp-button" href="#" rel="3b47bfb783d2762e474fa2dd35d256ee"><img src="https://assets.fortumo.com/fmp/fortumopay_150x50_red.png" width="150" height="50" alt="Mobile Payments by Fortumo"  /></a>        
                                                             <div className='generic_price_btn clearfix'>
                                                             <a className='' href='https://paystack.com/pay/ixit-monthly-mobile-development'>
                                                                 <i className="fa fa-credit-card fa-1x" aria-hidden="true"></i>

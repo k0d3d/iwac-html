@@ -10,7 +10,7 @@ export default class Footer extends Component {
                             <div className='footer-logo'>
 							<div className='logo'><a href='index.html' style={{color: `black`}}>iXit</a></div>
                                     <h5><a href='#' className='tran3s'>support@ixit.com.ng</a></h5>
-                                    <h6 className='p-color'>202. 277. 3894</h6>
+                                    <h6 className='p-color'>09022263889</h6>
 						</div>
                             </div>
                             <div className='col-md-3 col-sm-6 col-xs-12 footer-list'>

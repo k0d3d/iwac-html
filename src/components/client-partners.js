@@ -99,12 +99,7 @@ export default class ClientPartners extends Component {
 			]
 		}
 	}
-	componentDidMount() {
-		// let t = this
-		$(document).ready(function () {
-			// partnersLogo()
-		})		
-	}
+
     render() {
         return (
 			<div className='partent-logo-section'>
@@ -122,11 +117,7 @@ export default class ClientPartners extends Component {
 							</div>
 						</div>
 						<div className='col-md-6 col-xs-12 wow fadeInLeft'>
-							<OwlCarousel
-								{...this.state.options}
-							>
-								{this.state.items.slice(0, 14)}
-							</OwlCarousel>						
+				
 						</div>
 					</div>
 				</div>
@@ -134,3 +125,4 @@ export default class ClientPartners extends Component {
 		)
     }
 }
+

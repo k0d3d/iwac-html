@@ -3,6 +3,7 @@ module.exports = {
     title: `iXit`,
   },
   plugins: [
+    `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-fonts`,

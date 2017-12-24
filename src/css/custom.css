@@ -89,7 +89,7 @@
 #generic_price_table .generic_content:hover .generic_price_btn a,
 #generic_price_table .generic_content.active .generic_price_btn a{
 	background-color: #212121;
-	color: #fbc02d;
+	color: #2d7ffb;
 } 
 #generic_price_table{
 	margin: 50px 0 50px 0;
@@ -537,4 +537,8 @@ header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav .quote-button
 
 .mt {
 	margin-top: 50px;
+}
+
+.slideshow {
+    background-color: #f4cb25;
 }

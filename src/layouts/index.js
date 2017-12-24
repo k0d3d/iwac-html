@@ -85,7 +85,7 @@ iXit - mobile sites for recording artists and record labels.
 )
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.any,
 }
 
 export default TemplateWrapper
