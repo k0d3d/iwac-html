@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import classnames from 'classnames'
 
 
-require('../js/fortumopay.js')
 export default class PricingTable extends Component {
 
     constructor (props) {
@@ -44,16 +43,7 @@ export default class PricingTable extends Component {
     }
 
     componentDidMount () {
-        // var aScript = document.createElement('script');
-        // aScript.type = 'text/javascript';
-        // aScript.src = "https://assets.fortumo.com/fmp/fortumopay.js";
-// <script src='https://assets.fortumo.com/fmp/fortumopay.js' type='text/javascript'></script>
-
-
-        // document.head.appendChild(aScript);
-        // aScript.onload = function () {
-        //     console.log('fortumo loaded')
-        // };        
+       
     }
 
     render() {

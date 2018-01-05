@@ -18,7 +18,7 @@ class NavMenu extends Component {
 					<ul className='nav'>
 						<li className='dropdown-holder menu-list'><a href='#benefits' className='tran3s'>Benefits</a>
 						</li>
-						<li className='dropdown-holder menu-list active'><a href='/' className='tran3s'>Hosting</a>
+						<li className='dropdown-holder menu-list active'><a href='https://domains.i-x.it' className='tran3s'>Domains & Email</a>
 						</li>
 						<li className='dropdown-holder menu-list'><a href='#pricing' className='tran3s'>Pricing</a></li>
 						<li className='dropdown-holder menu-list'><a href='#' className='tran3s'>Were Hiring</a>
