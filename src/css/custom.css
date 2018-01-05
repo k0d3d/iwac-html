@@ -542,3 +542,7 @@ header.theme-menu-wrapper.menu-style-three #mega-menu-wrapper .nav .quote-button
 .slideshow {
     background-color: #f4cb25;
 }
+
+.call-us-no {
+	text-transform: none;
+}
